@@ -11,6 +11,7 @@
 	// import '../css/styles.css';
 	import '../css/layout.css';
 	import '../css/typography.css';
+	import '../css/animate.css';
 	// import '../css/ui.css';
 	import '../css/buttons.css';
 	// import '../css/icons.css';
@@ -19,9 +20,7 @@
 	// import '../css/accessibility.css';
 
 	// import preview from '$lib/images/meta/preview.png';
-	
-	
-	
+
 </script>
 
 <svelte:head>
