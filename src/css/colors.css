@@ -1,0 +1,46 @@
+.clr-primary {
+    color: var(--clr-primary);
+}
+
+.clr-secondary {
+
+    color: var(--clr-secondary);
+}
+
+.clr-text {
+    color: var(--clr-text);
+
+    --clr-gold: #cfbb82;
+    --clr-champagne: #756d5c;
+    --clr-blue: #378eff;
+
+    --clr-primary: var(--clr-gold);
+
+    
+    --clr-text: white;
+    
+    --clr-dark: #1E1E1E;
+    
+    --clr-bg: black;
+    --clr-bg-2: var(--clr-dark);
+}
+
+.clr-blue {
+    color: var(--clr-blue);
+}
+
+.clr-gold {
+    color: var(--clr-gold);
+}
+
+.clr-dark {
+    color: var(--clr-dark);
+}
+
+.clr-bg {
+    color: var(--clr-bg);
+}
+
+.clr-bg-2 {
+    color: var(--clr-bg-2);
+}

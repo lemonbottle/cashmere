@@ -10,6 +10,7 @@
 	// import '../css/colors.css';
 	// import '../css/styles.css';
 	import '../css/layout.css';
+	import '../css/colors.css';
 	import '../css/typography.css';
 	import '../css/animate.css';
 	// import '../css/ui.css';

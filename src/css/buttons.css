@@ -2,7 +2,7 @@
     /* margin-block: calc(var(--inline) * 2); */
     border-radius: 4rem;
     background-color: var(--clr-primary);
-    color: var(--clr-bg);
+    color: var(--clr-bg) !important;
     padding: 1rem 2rem;
     width: fit-content;
 

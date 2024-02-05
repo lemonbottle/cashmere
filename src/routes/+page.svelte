@@ -85,32 +85,35 @@ id="one"
 	</div>
 </section>
 
-<!-- Services span 4 -->
-<section class="span4 stretch">
+<!-- Main Services -->
+<section class="span4 stretch mini-menu-wrapper">
+	<div class="mini-menu inner-wrapper">
+		<h2 class="">Browse Services</h2>
+	</div>
 	<div class="inner-wrapper">
-		<div>
-			<h2 class="clr-primary"><a href="/hair-extensions">Hair extensions</a></h2>
+		<div class="card clr-bg">
+			<h3 ><a class="clr-bg" href="/hair-extensions">Hair extensions</a></h3>
 			<p>If you're craving length and volume, contact us for Great Lengths hair extensions.</p>
-			<a href="/hair-extensions" class="mini-link">Learn More</a>
+			<a href="/hair-extensions" class="button">Learn More</a>
 		</div>
-		<div>
-			<h2 class="clr-primary"><a href="/haircuts">Womens & Mens Haircuts</a></h2>
+		<div class="card">
+			<h3 ><a href="/haircuts">Womens & Mens Haircuts</a></h3>
 			<p>
 				Reinvent your look with a flattering haircut that suits your hair type and frames your face
 				well.
 			</p>
-			<a href="/haircuts" class="mini-link">Learn More</a>
+			<a href="/haircuts" class="button">Learn More</a>
 		</div>
-		<div>
-			<h2 class="clr-primary">Color & Highlights</h2>
+		<div class="card">
+			<h3 >Color & Highlights</h3>
 			<p>
 				From highlights to lowlights to full color and balayage, Cashmere offers a wide variety of
 				hair coloring services.
 			</p>
-			<a href="/color-highlights" class="mini-link">Learn More</a>
+			<a href="/color-highlights" class="button">Learn More</a>
 		</div>
-		<div>
-			<h2 class="clr-primary">Brazilian Blowout</h2>
+		<div class="card">
+			<h3 >Brazilian Blowout</h3>
 			<p>If you weant a sleek, manageable mane, schedule a Brazilian blowout keratin treatment.</p>
 		</div>
 	</div>
@@ -138,33 +141,6 @@ id="one"
 		</div>
 	</div>
 </section>
-
-<!-- You look amazing -->
-<!-- <section class="span-center pad-block-8 center">
-    <div class="inner-wrapper">
-        <div class="pad-inline-8">
-        
-            <h2 class="font-bold clr-primary">You Look Amazing</h2>
-            <div><p>At Cashmere, we're obsessed with bringing out your beauty, both inside and out. Our passion goes beyond giving you fabulous hair. We aim to boost your confidence, help you feel centered, and reduce your stress.</p>
-                <p class="font-bold font-m">So please, make yourself at home and get ready to love your new look.</p></div>
-        </div>
-    </div>
-</section> -->
-
-<!-- <section class="span2 pad-16 responsive-hero" style="background-color: transparent; background-image: url({blonde_woman}); background-size: cover; background-repeat: no-repeat; background-position: top center">
-    <div class="inner-wrapper">
-        <div>
-        </div>
-        <img src="{blonde_woman}" alt="Smiling blonde woman with gorgeous long hair">
-        <div>
-            <div class="card-black">
-                <h2 class="font-bold clr-primary">You Look Amazing</h2>
-                <div><p>At Cashmere, we're obsessed with bringing out your beauty, both inside and out. Our passion goes beyond giving you fabulous hair. We aim to boost your confidence, help you feel centered, and reduce your stress.</p>
-                    <p class="font-bold font-m">So please, make yourself at home and get ready to love your new look.</p></div>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 <!-- Responsive Hero banner -->
 <section
@@ -235,7 +211,7 @@ id="one"
 				highlights, and Brazilian blowouts.
 			</p>
 		</div>
-		<div class="" style="margin-block: auto;">
+		<div class="" style="margin: auto; padding-block: 2rem;">
 			<div class="font-l font-thin">Leave the hair salon with a</div>
 			<div class="font-xl font-bold">LOOK YOU LOVE</div>
 		</div>
@@ -356,6 +332,18 @@ id="one"
 <Cta />
 
 <style>
+
+	.mini-menu-wrapper h3 {
+		font-weight: 700;
+	}
+
+.mini-menu-wrapper .card {
+	background-color: rgba(100, 50, 50, .2);
+	box-shadow: inset 0px 0px 128px rgba(255, 193, 86, .1);
+	box-shadow: unset;
+	border: 2px solid rgba(207,187,130, .3);
+}
+
 	.mini-link {
 		text-decoration: underline;
 		text-underline-offset: 5px;
