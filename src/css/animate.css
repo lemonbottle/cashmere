@@ -1,0 +1,9 @@
+.fade-up {
+    transition: all 1s ease;
+    background: green;
+}
+
+.animate {
+    background: red;
+    
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    --webkit-font-smoothing: always;
+    font-size: 16px;
+
+    --font-primary: Montserrat, Helvetica, Arial, sans-serif;
+    --font-body: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+body {
+    color: var(--clr-text);
+    min-height: 100vh;
+        -webkit-text-size-adjust: 100%; /* Prevent text resizing unexpectedly in landscape mode on iOS */
+       text-rendering: optimizeLegibility; 
+       -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+
+a, a:visited {
+    color: var(--clr-primary);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    color: var(--clr-text);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 150%;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Semantic Tags */
+
+sup {
+    word-wrap: none;
+    display: inline;
+}
+
+/* Paragraph */
+p {
+    color: var(--clr-text);
+    line-height: 150%;
+    letter-spacing: .25px;
+    font-weight: 400;
+    font-family: var(--font-body);
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Formatting */
+
+.uppercase, .all-caps {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+}
+
+.font-l {
+    font-size: 2rem;
+}
+.font-xl {
+    font-size: 3rem;
+}
+
+.font-xxl {
+    font-size: 5rem;
+}
+
+.font-huge {
+    font-size: 7rem;
+}
+
+@media (max-width: 931px) {
+    .font-huge {
+        font-size: 4rem;
+    }
+}
+
+
+.font-m {
+    font-size: 1.2rem;
+}
+
+.font-thin {
+    font-weight: 200;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-bolder {
+    font-weight: 800;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+.font-gold {
+    color: var(--clr-primary);
+}
