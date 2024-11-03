@@ -246,6 +246,7 @@ id="one"
 
 	<div class="inner-wrapper" style="padding-top:0">
 		<div class="span3">
+			<div class="inner-wrapper">
 			<div class="card-gray">
 				<div class="clr-primary">
 					<span class="icon filled">star</span>
@@ -279,6 +280,7 @@ id="one"
 					<span class="icon filled">star</span>
 				</div>
 				<p>"Tatiana is <strong>hands down</strong> the best there is in town!!"</p>
+			</div>
 			</div>
 		</div>
 	</div>
