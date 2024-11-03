@@ -13,7 +13,7 @@
 	import tatiana from '$lib/images/photos/staff/Tatiana.png';
 	import skylar from '$lib/images/photos/staff/Skylar.png';
 	import lizzie from '$lib/images/photos/staff/Elizabeth.png';
-	import catelyn from '$lib/images/photos/staff/Catelyn.png';
+	
 	import salon_storefront from '$lib/images/photos/salon/cashmere-storefront.jpg';
 	import salon_storefront_bg from '$lib/images/photos/salon/cashmere-storefront-bg.jpg';
 
@@ -92,7 +92,7 @@
 		<h2>Meet the team</h2>
 	</div>
 </section>
-<section class="span4 staff-photos" style="padding-top: 0">
+<section class="span3 staff-photos" style="padding-top: 0">
 	<div class="inner-wrapper">
 		<div data-aos="fade-left" data-aos-delay="100">
 			<img class="rounded" src={tatiana} alt="Smiling young woman with classic bob haircut" />
@@ -111,11 +111,7 @@
 				Brazilian Blowout Certified, Color Expert, Women's Haircuts, Men's Haircuts, Highlights
 			</p>
 		</div>
-		<div data-aos="fade-left" data-aos-delay="400">
-			<img src={catelyn} alt="Young woman with full, thick, layered hair" />
-			<h2 class="clr-primary">Catelyn</h2>
-			<p>Brazilian Blowout Certified, Color Expert, Women's Haircuts, Men's Haircuts, Highlights</p>
-		</div>
+		
 	</div>
 </section>
 
