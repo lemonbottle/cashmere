@@ -116,7 +116,7 @@ section.header > .inner-wrapper {
     grid-template-columns: 1fr 1fr;
     gap: var(--inline);
 }
-.span3 {
+.span3, .span3 > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--inline);
@@ -130,7 +130,7 @@ section.header > .inner-wrapper {
 
 @media (max-width: 600px) {
     .span2 > div,
-    .span3,
+    .span3, .span3 > div,
     .span4 > div {
         display: flex;
         flex-direction: column;
