@@ -28,6 +28,11 @@
 		}
 	}
 
+	function closeMenu() {
+		menuON = 0;
+		menuState = 'visible';
+	}
+
 
 	
 
@@ -89,9 +94,9 @@
 
 					{#each links as { href, text }, i}
 						{#if i === links.length - 1}
-							<a class="signup shadow1 nav-link-item" tabindex="0" {href}>{text}</a>
+							<a class="signup shadow1 nav-link-item" tabindex="0" {href} on:click={closeMenu}>{text}</a>
 						{:else}
-							<a class="nav-link-item" tabindex="0" {href}>{text}</a>
+							<a class="nav-link-item" tabindex="0" {href} on:click={closeMenu}>{text}</a>
 						{/if}
 					{/each}
 				</ul>
