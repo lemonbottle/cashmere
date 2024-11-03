@@ -7,7 +7,7 @@
 		{ text: 'Haircuts', href: '/haircuts' },
 		{ text: 'Color', href: '/color-highlights' },
 		{ text: 'The Salon', href: '/salon' },
-		{ text: 'Book Now', href: '/contact-us' },
+		{ text: 'Book Now', href: 'tel:+13187791960' },
 	];
 
 	var menuON = 0;
