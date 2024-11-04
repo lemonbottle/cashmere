@@ -29,8 +29,8 @@
 	}
 
 	function closeMenu() {
-		menuON = 0;
-		menuState = 'visible';
+		menuON = 1;
+		menuState = 'hidden';
 	}
 
 
@@ -81,9 +81,9 @@
 				</a>
 			{:else}
 				<p />
-			{/if}
+			{/if} 
 
-			<div class={menuState}>
+			<div class="{menuState} mobile-menu-wrapper">
 				<ul class="links-wrapper mobile-menu">
 					<a
 						class="hamburger-icon remove-underline"
@@ -262,6 +262,9 @@
 	}
 
 	@media (width > 769px) {
+		.mobile-menu-wrapper {
+			grid-column: 2/4;
+		}
 		.mobile-menu {
 			display: none;
 			flex-direction: column;
