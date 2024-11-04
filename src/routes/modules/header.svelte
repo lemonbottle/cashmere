@@ -301,6 +301,9 @@
 		.mobile-hamburger {
 			display: block;
 		}
+		.mobile-menu-wrapper {
+			grid-column: 2/4;
+		}
 
 		.hidden {
 			display: none;
