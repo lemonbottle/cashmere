@@ -6,11 +6,12 @@
 	// 	});
 
 	import great_lengths from '$lib/images/logos/great-lengths-logo.png';
-    import sb_badge_2021 from '$lib/images/logos/sb-mag-badge-2021.png';
-    import sb_badge_2022 from '$lib/images/logos/sb-mag-badge-2022.png';
+    	import sb_badge_2021 from '$lib/images/logos/sb-mag-badge-2021.png';
+    	import sb_badge_2022 from '$lib/images/logos/sb-mag-badge-2022.png';
+	import sb_badge_2023 from '$lib/images/logos/sb-mag-badge-2023.png';
 	import girl_with_bangs from '$lib/images/backgrounds/home-hero-banner-girl-with-bangs.png';
 	import girl_with_bangs_mobile from '$lib/images/photos/girl-with-bangs.png';
-    import girl_with_bangs_blurred from '$lib/images/photos/home/girl-with-bangs-blurred.png';
+    	import girl_with_bangs_blurred from '$lib/images/photos/home/girl-with-bangs-blurred.png';
 	import blonde_woman_hero from '$lib/images/photos/home/blonde-woman-hero.png';
 	import blonde_woman_mobile from '$lib/images/photos/home/blonde-woman-mobile.png';
 	import blonde_woman_blurred from '$lib/images/photos/home/blonde-woman-blurred.png';
@@ -83,6 +84,90 @@ id="one"
 			<a class="button" href="/contact-us">Contact Us</a>
 		</div>
 	</div>
+</section>
+
+<!-- Reviews -->
+
+<section class="span1">
+	<div class="inner-wrapper center" style="margin-bottom: 1rem; padding-bottom:0">
+		<h2>Loved by your Shreveport neighbors</h2>
+
+		<div>
+			<h3 style="display: block">
+				4.9 <div class="clr-primary" style="display: inline">
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+				</div>
+			</h3>
+			<p>
+				<a
+					href="https://www.google.com/search?q=cashmere+hair+salon+shreveport&sca_esv=589642725&ei=7lJ2ZeL3I4-nmtkPtvuFwAM&ved=0ahUKEwjipsTXi4aDAxWPkyYFHbZ9ATgQ4dUDCBA&uact=5&oq=cashmere+hair+salon+shreveport&gs_lp=Egxnd3Mtd2l6LXNlcnAiHmNhc2htZXJlIGhhaXIgc2Fsb24gc2hyZXZlcG9ydDIREC4YgAQYxwEYrwEYpgMYqAMyIBAuGIAEGMcBGK8BGKYDGKgDGJcFGNwEGN4EGOAE2AEBSN4PUPkEWOMOcAF4AZABAJgBfaABnQqqAQQwLjExuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBRAAGIAEwgIGEAAYFhgewgIIEAAYFhgeGArCAgsQABiABBiKBRiGA8ICERAuGIAEGMcBGK8BGKgDGKYDwgIgEC4YgAQYxwEYrwEYqAMYpgMYlwUY3AQY3gQY4ATYAQHiAwQYACBBiAYBkAYIugYGCAEQARgU&sclient=gws-wiz-serp#lrd=0x8636d3777fd8f92f:0x45c6e264d84b25e6,1,,,,"
+					>40 reviews</a
+				>
+			</p>
+		</div>
+        
+	</div>
+
+	<div class="inner-wrapper" style="padding-top:0">
+		<div class="span3">
+			<div class="inner-wrapper">
+			<div class="card-gray">
+				<div class="clr-primary">
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+				</div>
+				<p>
+					"Great <strong>QUALITY</strong>, great <strong>PRICING</strong>, great
+					<strong>ATMOSPHERE</strong>
+					and a great <strong>OVERALL EXPERIENCE</strong>."
+				</p>
+			</div>
+			<div class="card-gray">
+				<div class="clr-primary">
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+				</div>
+				<p>"Great <strong>price</strong> and top notch <strong>quality</strong> of hair cut!!"</p>
+			</div>
+			<div class="card-gray">
+				<div class="clr-primary">
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+					<span class="icon filled">star</span>
+				</div>
+				<p>"Tatiana is <strong>hands down</strong> the best there is in town!!"</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+    <section class="span-center center" style="margin-top: 0; padding-top: 2rem; padding-bottom: 0;">
+
+		<div class="span2">
+			<div class="inner-wrapper">
+		
+				<h2>Winner of SB Magazine Best Salon 3 years in a row.</h2>
+				<div>
+			        <img src="{sb_badge_2021}" alt="Best of SB 2021" style="max-width: 150px">
+			        <img src="{sb_badge_2022}" alt="Best of SB 2022" style="max-width: 150px">
+					<img src="{sb_badge_2023}" alt="Best of SB 2023" style="max-width: 150px">
+				</div>
+			</div>    
+		</div>
+    
+    </section>
 </section>
 
 <!-- Main Services -->
@@ -218,82 +303,7 @@ id="one"
 	</div>
 </section>
 
-<!-- Reviews -->
 
-<section class="span1">
-	<div class="inner-wrapper center" style="margin-bottom: 1rem; padding-bottom:0">
-		<h2>Highly rated by everyone</h2>
-
-		<div>
-			<h3 style="display: block">
-				4.9 <div class="clr-primary" style="display: inline">
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-				</div>
-			</h3>
-			<p>
-				<a
-					href="https://www.google.com/search?q=cashmere+hair+salon+shreveport&sca_esv=589642725&ei=7lJ2ZeL3I4-nmtkPtvuFwAM&ved=0ahUKEwjipsTXi4aDAxWPkyYFHbZ9ATgQ4dUDCBA&uact=5&oq=cashmere+hair+salon+shreveport&gs_lp=Egxnd3Mtd2l6LXNlcnAiHmNhc2htZXJlIGhhaXIgc2Fsb24gc2hyZXZlcG9ydDIREC4YgAQYxwEYrwEYpgMYqAMyIBAuGIAEGMcBGK8BGKYDGKgDGJcFGNwEGN4EGOAE2AEBSN4PUPkEWOMOcAF4AZABAJgBfaABnQqqAQQwLjExuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBRAAGIAEwgIGEAAYFhgewgIIEAAYFhgeGArCAgsQABiABBiKBRiGA8ICERAuGIAEGMcBGK8BGKgDGKYDwgIgEC4YgAQYxwEYrwEYqAMYpgMYlwUY3AQY3gQY4ATYAQHiAwQYACBBiAYBkAYIugYGCAEQARgU&sclient=gws-wiz-serp#lrd=0x8636d3777fd8f92f:0x45c6e264d84b25e6,1,,,,"
-					>40 reviews</a
-				>
-			</p>
-		</div>
-        
-	</div>
-
-	<div class="inner-wrapper" style="padding-top:0">
-		<div class="span3">
-			<div class="inner-wrapper">
-			<div class="card-gray">
-				<div class="clr-primary">
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-				</div>
-				<p>
-					"Great <strong>QUALITY</strong>, great <strong>PRICING</strong>, great
-					<strong>ATMOSPHERE</strong>
-					and a great <strong>OVERALL EXPERIENCE</strong>."
-				</p>
-			</div>
-			<div class="card-gray">
-				<div class="clr-primary">
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-				</div>
-				<p>"Great <strong>price</strong> and top notch <strong>quality</strong> of hair cut!!"</p>
-			</div>
-			<div class="card-gray">
-				<div class="clr-primary">
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-					<span class="icon filled">star</span>
-				</div>
-				<p>"Tatiana is <strong>hands down</strong> the best there is in town!!"</p>
-			</div>
-			</div>
-		</div>
-	</div>
-
-    <section class="span-center center" style="margin-top: 0; padding-top: 2rem; padding-bottom: 0;">
-
-
-        <img src="{sb_badge_2021}" alt="" style="max-width: 150px">
-        <img src="{sb_badge_2022}" alt="" style="max-width: 150px">
-    
-    
-    </section>
-</section>
 
 
 <!-- Bottom bullets -->
