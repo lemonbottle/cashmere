@@ -156,9 +156,9 @@ id="one"
     <section class="span-center center" style="margin-top: 0; padding-top: 2rem; padding-bottom: 0;">
 
 		<div class="span2">
-			<div class="inner-wrapper">
+			<div class="inner-wrapper" style="display: flex; align-items: center; flex-wrap: wrap;">
 		
-				<h2>Winner of SB Magazine Best Salon 3 years in a row.</h2>
+				<h2 style="text-align: left">Winner of SB Magazine Best Salon 3 years in a row.</h2>
 				<div>
 			        <img src="{sb_badge_2021}" alt="Best of SB 2021" style="max-width: 150px">
 			        <img src="{sb_badge_2022}" alt="Best of SB 2022" style="max-width: 150px">
