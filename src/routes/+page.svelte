@@ -90,7 +90,7 @@ id="one"
 
 <section class="span1">
 	<div class="inner-wrapper center" style="margin-bottom: 1rem; padding-bottom:0">
-		<h2>Loved by your Shreveport neighbors</h2>
+		<h2>Your Shreveport neighbors love their hair a lot</h2>
 
 		<div>
 			<h3 style="display: block">
@@ -156,9 +156,9 @@ id="one"
     <section class="span-center center" style="margin-top: 0; padding-top: 2rem; padding-bottom: 0;">
 
 		<div class="span2">
-			<div class="inner-wrapper" style="display: flex; align-items: center; flex-wrap: wrap;">
+			<div class="inner-wrapper" style="display: flex; align-items: center; flex-wrap: wrap; flex-direction: column;">
 		
-				<h2 style="text-align: center">Winner of SB Magazine Best Salon 3 years in a row.</h2>
+				<h2 style="text-align: center;">Winner of SB Magazine Best Salons, 3 years in a row.</h2>
 				<div style="flex-grow: 1;">
 			        <img src="{sb_badge_2021}" alt="Best of SB 2021" style="max-width: 150px">
 			        <img src="{sb_badge_2022}" alt="Best of SB 2022" style="max-width: 150px">
@@ -173,7 +173,7 @@ id="one"
 <!-- Main Services -->
 <section class="span4 stretch mini-menu-wrapper">
 	<div class="mini-menu inner-wrapper">
-		<h2 class="">Browse Services</h2>
+		<h2 style="" class="">Browse Services</h2>
 	</div>
 	<div class="inner-wrapper">
 		<div class="card clr-bg">
