@@ -127,7 +127,7 @@
 	}
 
 	.blur {
-		backdrop-filter: blur(5px);
+		backdrop-filter: blur(15px);
 		-webkit-backdrop-filter: saturate(3) blur(5px);
 		background-color: rgba(1, 1, 1, 0.7);
 		background-blend-mode: darken;
@@ -138,6 +138,7 @@
 		z-index: 100;
 		/* display:flex; */
 		width: 100%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 	}
 
 	/* nav {
