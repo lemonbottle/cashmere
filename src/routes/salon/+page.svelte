@@ -12,7 +12,10 @@
 	
 	import tatiana from '$lib/images/photos/staff/Tatiana.png';
 	import skylar from '$lib/images/photos/staff/Skylar.png';
-	import lizzie from '$lib/images/photos/staff/Elizabeth.png';
+	import jasmine from '$lib/images/photos/staff/Jasmine-Hunter.jpg';
+	import amanda from '$lib/images/photos/staff/Amanda-LaSale.JPG';
+	import krystal from '$lib/images/photos/staff/Krystal-Bassett.JPG';
+	import kimmy from '$lib/images/photos/staff/Kimmy-Alvarez.JPG';
 	
 	import salon_storefront from '$lib/images/photos/salon/cashmere-storefront.jpg';
 	import salon_storefront_bg from '$lib/images/photos/salon/cashmere-storefront-bg.jpg';
@@ -92,25 +95,47 @@
 		<h2>Meet the team</h2>
 	</div>
 </section>
-<section class="span3 staff-photos" style="padding-top: 0">
+<section class="span3 staff-photos" style="padding-top: 0; padding-bottom: 0;">
 	<div class="inner-wrapper">
 		<div data-aos="fade-left" data-aos-delay="100">
 			<img class="rounded" src={tatiana} alt="Smiling young woman with classic bob haircut" />
 			<h2 class="clr-primary">Tatiana</h2>
+			<h3 class="clr-primary">Owner</h3>
 			<p>Great Lengths Certified, Brazilian Blowout Certified, Color Expert, Women's Haircuts</p>
+		</div>
+		<div data-aos="fade-left" data-aos-delay="300">
+			<img src={kimmy} alt="Smiling young woman with dark hair and full bangs" />
+			<h2 class="clr-primary">Kimmy</h2>
+			<p>Brunette Specialist, Sun-kissed/Natural Balayage, Bouncy Blowouts, Custom Color</p>
 		</div>
 		<div data-aos="fade-left" data-aos-delay="200">
 			<img src={skylar} alt="Smiling man with clean haircut" />
 			<h2 class="clr-primary">Skylar</h2>
 			<p>Color Expert, Brazilian Blowout Certified, Women's Haircuts, Men's Haircuts, Highlights, Curly Hair & Perms</p>
 		</div>
-		<div data-aos="fade-left" data-aos-delay="300">
-			<img src={lizzie} alt="Smiling young woman with dark hair and full bangs" />
-			<h2 class="clr-primary">Lizzie</h2>
-			<p>
-				Brazilian Blowout Certified, Color Expert, Women's Haircuts, Men's Haircuts, Highlights
-			</p>
+		
+		
+	</div>
+</section>
+
+<section class="span3 staff-photos" style="padding-top: 0">
+	<div class="inner-wrapper">
+		<div data-aos="fade-left" data-aos-delay="100">
+			<img class="rounded" src={krystal} alt="Smiling young woman with classic bob haircut" />
+			<h2 class="clr-primary">Krystal</h2>
+			<p>Bellami Extension Certified, Color & Highlight Specialist, Weddings & Makeup, Kids' Cuts, Educator</p>
 		</div>
+		<div data-aos="fade-left" data-aos-delay="200">
+			<img src={amanda} alt="Smiling man with clean haircut" />
+			<h2 class="clr-primary">Amanda</h2>
+			<p>Brazilian Blowout Certified, Color Expert, Color Corrections, Women's Haircuts, Men's Haircuts, Children's Haircuts</p>
+		</div>
+		<div data-aos="fade-left" data-aos-delay="200">
+			<img src={jasmine} alt="Smiling man with clean haircut" />
+			<h2 class="clr-primary">Jasmine</h2>
+			<p>Apprentice. Detail-oriented & eager to learn!</p>
+		</div>
+		
 		
 	</div>
 </section>
