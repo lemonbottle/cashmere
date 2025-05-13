@@ -95,7 +95,7 @@
 		<h2>Meet the team</h2>
 	</div>
 </section>
-<section class="span3 staff-photos" style="padding-top: 0; padding-bottom: 0;">
+<section class="span3 staff-photos" style="padding-top: 0; padding-bottom: 4rem;">
 	<div class="inner-wrapper">
 		<div data-aos="fade-left" data-aos-delay="100">
 			<img class="rounded" src={tatiana} alt="Smiling young woman with classic bob haircut" />
