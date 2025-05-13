@@ -1,5 +1,3 @@
-
-
 .rounded {
     border-radius: var(--corners);
 }
@@ -31,6 +29,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    pointer-events: none;
     --u:  15px;
     --c1: #fbd163;
     --c2: #e4a228;
