@@ -9,7 +9,7 @@
 				Get in touch with Cashmere Hair Salon today to install your Great Lengths hair extensions in
 				Shreveport, Louisiana.
 			</p>
-			<a href="/contact-us" class="button button-3 center">Schedule Appointment</a>
+			<a href="tel:+13187791960" class="button button-3 center">Schedule Appointment</a>
 		</div>
 	</div>
 </section>

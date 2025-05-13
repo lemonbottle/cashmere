@@ -101,7 +101,7 @@
 			<img class="rounded" src={tatiana} alt="Smiling young woman with classic bob haircut" />
 			<h2 class="clr-primary">Tatiana</h2>
 			<h3 class="clr-primary">Owner</h3>
-			<p>Great Lengths Certified, Brazilian Blowout Certified, Color Expert, Women's Haircuts</p>
+			<p>Great Lengths Hair Extensions Certified, Brazilian Blowout Certified, Color Expert, Women's Haircuts</p>
 		</div>
 		<div data-aos="fade-left" data-aos-delay="300">
 			<img src={kimmy} alt="Smiling young woman with dark hair and full bangs" />
