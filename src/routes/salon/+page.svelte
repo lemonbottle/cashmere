@@ -14,7 +14,7 @@
 	import skylar from '$lib/images/photos/staff/Skylar.png';
 	import jasmine from '$lib/images/photos/staff/Jasmine-Hunter.jpg';
 	import amanda from '$lib/images/photos/staff/Amanda-LaSale.JPG';
-	import krystal from '$lib/images/photos/staff/Krystal-Bassett.JPG';
+	import chrystal from '$lib/images/photos/staff/Chrystal-Bassett.JPG';
 	import kimmy from '$lib/images/photos/staff/Kimmy-Alvarez.JPG';
 	
 	import salon_storefront from '$lib/images/photos/salon/cashmere-storefront.jpg';
@@ -121,8 +121,8 @@
 <section class="span3 staff-photos" style="padding-top: 0">
 	<div class="inner-wrapper">
 		<div data-aos="fade-left" data-aos-delay="100">
-			<img class="rounded" src={krystal} alt="Smiling young woman with classic bob haircut" />
-			<h2 class="clr-primary">Krystal</h2>
+			<img class="rounded" src={chrystal} alt="Smiling young woman with classic bob haircut" />
+			<h2 class="clr-primary">Chrystal</h2>
 			<p>Bellami Extension Certified, Color & Highlight Specialist, Weddings & Makeup, Kids' Cuts, Educator</p>
 		</div>
 		<div data-aos="fade-left" data-aos-delay="200">
@@ -133,7 +133,7 @@
 		<div data-aos="fade-left" data-aos-delay="200">
 			<img src={jasmine} alt="Smiling man with clean haircut" />
 			<h2 class="clr-primary">Jasmine</h2>
-			<p>Apprentice. Detail-oriented & eager to learn!</p>
+			<p>Junior Stylist. Detail-oriented, passionate about growth, and dedicated to perfecting her craft.</p>
 		</div>
 		
 		
