@@ -161,8 +161,7 @@
 
 	@media (max-width: 600px) {
 		.responsive-hero {
-
-
+			background-color: var(--clr-dark) !important;
 		}
 		.responsive-hero .hero-img {
 			display: block;
