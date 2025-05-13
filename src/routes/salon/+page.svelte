@@ -95,7 +95,7 @@
 		<h2>Meet the team</h2>
 	</div>
 </section>
-<section class="span3 staff-photos" style="padding-top: 0; padding-bottom: 4rem;">
+<section class="span3 staff-photos" style="padding-top: 0;">
 	<div class="inner-wrapper">
 		<div data-aos="fade-left" data-aos-delay="100">
 			<img class="rounded" src={tatiana} alt="Smiling young woman with classic bob haircut" />
@@ -169,6 +169,13 @@
 			border-radius: 1rem;
 			padding: 0;
 		}
+	}
+
+	@media (min-width: 601px) {
+		.staff-photos {
+			padding-bottom: 4rem;
+		}
+		
 	}
 
 	.staff-photos img {
